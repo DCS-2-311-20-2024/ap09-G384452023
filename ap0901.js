@@ -44,6 +44,7 @@ function init() {
   plane.position.set(0, -0.01, 0);
   plane.receiveShadow = true;
   scene.add(plane);
+  
 
   // コース(描画)
   const course = new THREE.CatmullRomCurve3(
